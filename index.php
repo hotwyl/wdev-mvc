@@ -5,6 +5,6 @@ error_reporting(E_ALL);
 
 require __DIR__ . '/vendor/autoload.php';
 
-use \App\controller\Pages\Home;
-$home = new Home();
-echo $home->getHome();
+use \App\Controller\Pages\Home;
+
+echo Home::getHome();
