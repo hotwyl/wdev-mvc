@@ -33,11 +33,6 @@ class View
             return '{{' . $item . '}}';
         }, $keys);
 
-        // echo '<pre>';
-        // print_r($keys);
-        // echo "</pre>";
-        // exit;
-
         //retorna o conteúdo renderizado
         return str_replace($keys, array_values($vars), $contentView);
     }
