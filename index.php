@@ -1,17 +1,19 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
 
 require __DIR__ . '/vendor/autoload.php';
 
+use \App\Http\Router;
 use \App\Controller\Pages\Home;
 
-// $obRequest = new \App\Http\Request;
+define('URL','http://localhost/projetos/php/wdevmvc');
 
-// echo '<pre>';
-// print_r($obRequest);
-// echo '</pre>';
-// exit;
+$obRouter = new Router(URL);
+echo '<pre>';
+print_r($obRouter);
+echo '</pre>';
+exit;
 
 echo Home::getHome();
