@@ -19,7 +19,7 @@ class View
     /**
      * Método responsável por retornar o conteúdo renderizado de uma view
      * @param string $view
-     * @param array $vars(String/numeric)
+     * @param array $vars(string/numeric)
      * @return string
      */
     public static function render($view, $vars = [])
