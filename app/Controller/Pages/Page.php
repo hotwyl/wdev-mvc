@@ -6,7 +6,6 @@ use \App\Utils\View;
 
 class Page
 {
-
     /**
      * metodo responsavel por renderizar o topo da pagina
      * @return string

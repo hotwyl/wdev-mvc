@@ -1,2 +1,2 @@
 # vagas
-https://dev.3wonline.com/prod/vagas-mvc/
+https://dev.3wonline.com/prod/wdev-mvc/
